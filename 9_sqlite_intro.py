@@ -14,7 +14,7 @@ con.commit()
 # print(cur.rowcount)
 
 
-cur.execute("SELECT rollno as rooolno, stname FROM student")
+cur.execute("SELECT rollno as rollno, stname FROM student")
 
 print(cur.description[0][0], cur.description[1][0])
 for row in cur:
