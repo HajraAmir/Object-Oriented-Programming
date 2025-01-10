@@ -1,4 +1,4 @@
-from ArrayQueue import ArrayQueue
+from Array Queue import ArrayQueue
 def main():
 	q = ArrayQueue(25)
 	print(q.isEmpty())
