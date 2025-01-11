@@ -49,7 +49,7 @@ class Unordered:
 
     def set(self, index, o):
         pass
-        # assign o at index in array
+        # assign o at index in Array
             
 def main():
     # Create a new Doubly Linked List
