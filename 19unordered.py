@@ -54,7 +54,7 @@ class Unordered:
 def main():
     # Create a new Doubly Linked List
     AL = Unordered()
-    # Insert the Element to Empty list
+    # Insert the Element to Empty List
     AL.append(10)
     # Insert the element at the End
     AL.append(20)
