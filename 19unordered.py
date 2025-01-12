@@ -19,7 +19,7 @@ class Unordered:
                 raise StopIteration
 
     def __iter__(self):
-        return self.UOIterator(0, self)  # Index 0 is the locations of FIRST object in array
+        return self.UOIterator(0, self)  #Index 0 is the Locations of FIRST object in array
 
     def isFull(self):
         return self.ALSize == self.ARSize
@@ -54,7 +54,7 @@ class Unordered:
 def main():
     # Create a new Doubly Linked List
     AL = Unordered()
-    # Insert the element to empty list
+    # Insert the Element to empty list
     AL.append(10)
     # Insert the element at the End
     AL.append(20)
