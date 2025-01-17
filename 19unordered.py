@@ -19,7 +19,7 @@ class Unordered:
                 raise StopIteration
 
     def __iter__(self):
-        return self.UOIterator(0, self)  #Index 0 is the Locations of FIRST object in array
+        return self.UOIterator(0, self)  #Index 0 is the Locations of FIRST Object in array
 
     def isFull(self):
         return self.ALSize == self.ARSize
