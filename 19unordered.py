@@ -65,7 +65,7 @@ def main():
     AL.append(80)
     AL.append(90)
     AL.append(40)
-    # Delete elements from start
+    # Delete elements from Start
     AL.remove(0)
     AL.remove(4)
 
