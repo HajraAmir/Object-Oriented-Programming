@@ -4,7 +4,7 @@ con = dbms.connect('abc.db')
 
 cur = con.cursor()
 
-txt = "Mahmood');Delete From student;--"
+txt = "Mahmood');Delete From Student;--"
 
 stmt = "Insert into Student (deptno, rollno, semester, stname) values ('DS', 'BSDSF22M088', 3, '"+ txt +"')"
 
