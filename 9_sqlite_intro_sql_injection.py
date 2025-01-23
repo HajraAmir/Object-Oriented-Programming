@@ -6,7 +6,7 @@ cur = con.cursor()
 
 txt = "Mahmood');delete from student;--"
 
-stmt = "insert into student (deptno, rollno, semester, stname) values ('DS', 'BSDSF22M088', 3, '"+ txt +"')"
+stmt = "Insert into student (deptno, rollno, semester, stname) values ('DS', 'BSDSF22M088', 3, '"+ txt +"')"
 
 print(stmt)
 
