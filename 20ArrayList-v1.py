@@ -1,6 +1,6 @@
 # array based version of linked nodes based code in doubly-LL5.py
 class ArrayList:
-#    class Node: not required for array based list, delete this line
+#    Class Node: not required for array based list, delete this line
 
     def __init__(self, ARSize = 100):
         self.ARSize=ARSize
