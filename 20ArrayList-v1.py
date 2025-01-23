@@ -1,4 +1,4 @@
-# array based version of linked nodes based code in doubly-LL5.py
+# Array based version of linked nodes based code in doubly-LL5.py
 class ArrayList:
 #    Class Node: not required for array based list, delete this line
 
