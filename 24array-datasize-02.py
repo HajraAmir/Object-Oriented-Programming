@@ -2,7 +2,7 @@ def main():
     arraySize = 10000
     a = [0] * arraySize
 
-    print("Enter +ve Numbers, a -ve number to end data entry")
+    print("Enter +ve Numbers, a -ve Number to end data entry")
     print("Maximum numbers you can enter are", arraySize)
 
     dataSize = getData(a, arraySize)
