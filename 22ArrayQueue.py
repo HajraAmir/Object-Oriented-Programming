@@ -20,7 +20,7 @@ class ArrayQueue:
 			self._array[self._rear] = val
 			self._rear = (self._rear + 1)  % self._arraySize
 		else:
-			raise RuntimeError("queue full")
+			raise RuntimeError("Queue full")
 
 	def peek(self):
 		if not self.isEmpty():
