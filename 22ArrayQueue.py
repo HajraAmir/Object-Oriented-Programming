@@ -26,7 +26,7 @@ class ArrayQueue:
 		if not self.isEmpty():
 			return self._array[self._front]
 		else:
-			raise RuntimeError("queue empty, nothing to return")
+			raise RuntimeError("Queue empty, nothing to return")
 
 	def remove(self):
 		val = self.peek()
