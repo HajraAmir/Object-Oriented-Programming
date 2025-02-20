@@ -8,7 +8,7 @@ cur = con.cursor()
 #cur.execute("create table student (rollno text, stname text, semester int, phoneno text, deptno text)")
 
 r = 'BSDSF22M088'
-n = 'Zafar'
+n = 'HAJRA'
 d = 'DS'
 s = 99
 
