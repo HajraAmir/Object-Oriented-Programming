@@ -10,7 +10,7 @@ cur = con.cursor()
 r = 'BSDSF22A027'
 n = 'HAJRA'
 d = 'DS'
-s = 99
+s = 6
 
 cur = con.execute("Insert into student (semester, rollno, stname, deptno) values(?,?,?,?)", (s, r,n,d))
 con.commit()
