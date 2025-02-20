@@ -5,7 +5,7 @@ con = dbms.connect('abc.db')
 cur = con.cursor()
 
 # one time task
-#cur.execute("Create Table student (rollno text, stname text, semester int, phoneno text, deptno text)")
+#cur.execute("Create Table Student (rollno text, stname text, semester int, phoneno text, deptno text)")
 
 r = 'BSDSF22A027'
 n = 'HAJRA'
