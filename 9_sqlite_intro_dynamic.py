@@ -17,7 +17,7 @@ con.commit()
 
 print(cur.rowcount)
 
-cur.execute("SELECT rollno, stname, deptno, semester FROM student")
+cur.execute("SELECT rollno, Stname, deptno, semester FROM student")
 for row in cur:
     print(row)
 
