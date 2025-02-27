@@ -13,7 +13,7 @@ class Queue:
         return self.size() == 0
 
     def isFull(self):
-        return self.size() == self._arraySize   # An Error May be Here
+        return self.size() == self._arraySize   # An Error May Be Here
 
     def insert(self, val):
         if not self.isFull():
