@@ -12,7 +12,7 @@ n = 'HAJRA'
 d = 'DS'
 s = 6
 
-cur = con.execute("Insert into student (semester, rollno, stname, deptno) values(?,?,?,?)", (s, r,n,d))
+cur = con.execute("Insert into Student (semester, rollno, stname, deptno) values(?,?,?,?)", (s, r,n,d))
 con.commit()
 
 print(cur.rowcount)
