@@ -55,7 +55,7 @@ def main():
     print(q.size())
     print(q.remove())
     print(q.remove())
-    print(q.remove())    # comment this line
+    print(q.remove())    # Comment this line
     print(q.isEmpty())
 
 main()
