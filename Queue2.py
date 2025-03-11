@@ -1,6 +1,6 @@
 class Queue:
 	def __init__(self, size=100):
-		size = size + 1   # +1 is for a reason
+		size = size + 1   # +1 is for a Reason
 		self._arraySize = size
 		self._array = [None]*size
 		self._rear = 0
