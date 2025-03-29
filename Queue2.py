@@ -18,7 +18,7 @@ class Queue:
 	def insert(self, val):
 		if not self.isFull():
 			self._array[self._rear] = val
-			self._rear = (self._rear + 1)  % self._arraySize
+			self._rear = (self._rear + 1) % self._arraySize
 		else:
 			raise RuntimeError("queue full")
 
