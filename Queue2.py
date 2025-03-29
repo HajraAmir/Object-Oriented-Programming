@@ -13,7 +13,7 @@ class Queue:
 		return self.size()== 0 #   or   self._front == self._rear
 
 	def isFull(self):    # Remainder is Used to use array As Circular Collection
-		return self.size() == self._arraySize - 1 #    OR return (self._front + self._arraySize + 1) == self._rear + self._arraySize
+		return self.size()== self._arraySize - 1 #    OR return (self._front + self._arraySize + 1) == self._rear + self._arraySize
 
 	def insert(self, val):
 		if not self.isFull():
