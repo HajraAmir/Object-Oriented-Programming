@@ -10,7 +10,7 @@ class Queue:
 		return (self._rear - self._front + self._arraySize) % self._arraySize
 
 	def isEmpty(self):
-		return self.size()== 0 #   or   self._front == self._rear
+		return self.size()==0 #   or   self._front == self._rear
 
 	def isFull(self):    # Remainder is Used to use array As Circular Collection
 		return self.size()== self._arraySize - 1 #    OR return (self._front + self._arraySize + 1) == self._rear + self._arraySize
