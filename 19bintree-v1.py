@@ -1,4 +1,4 @@
-# linked nodes based code for implementation of TREE basics
+# linked nodes based Code for implementation of TREE basics
 class BinTree:
     class Node:
         def __init__(self, data=None):
