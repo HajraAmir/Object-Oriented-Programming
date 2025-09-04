@@ -56,7 +56,7 @@ def main():
     AL = Unordered()
     # Insert the Element to Empty List
     AL.append(10)
-    # Insert the element at the End
+    # Insert the Element at the End
     AL.append(20)
     AL.append(30)
     AL.append(70)
