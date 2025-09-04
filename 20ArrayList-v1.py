@@ -71,7 +71,7 @@ def main():
     AL.append(80)
     AL.append(90)
     AL.append(40)
-    # Display Data
+   
     print("Display 10 items")
     AL.Display()
     # Delete elements from start
