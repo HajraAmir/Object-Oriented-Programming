@@ -7,4 +7,4 @@ if __name__ == "__main__":
 
     logging.info("Start: %d.", 2022)
     time.sleep(3)
-    logging.warning("Finish: %d.", 2023)
+    logging.warning("Finish: %d.", 2023) #THIS IS WARNING
