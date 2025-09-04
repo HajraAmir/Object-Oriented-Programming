@@ -60,7 +60,7 @@ class ArrayList:
 def main():
     # Create a new Doubly Linked List
     AL = ArrayList()
-    # Insert the element to empty list
+    # Insert the element to Empty list
     AL.append(10)
     # Insert the element at the end
     AL.append(20)
