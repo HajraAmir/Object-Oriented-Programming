@@ -52,7 +52,7 @@ def main():
     ll.append(60)
     ll.append(80)
     ll.append(90)
-    ll.append(40)
+    ll.append(40)# COMMENT THIS LINE
 
     
     print("Display 10 items")
