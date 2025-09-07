@@ -12,7 +12,7 @@ class ArrayQueue:
 	def isEmpty(self):
 		return self.size() == 0 #   or   self._front == self._rear
 
-	def isFull(self):    # Remainder is used to use array as Circular Collection
+	def isFull(self):    # Remainder is used to use Array as Circular Collection
 		return self.size() == self._arraySize - 1 #    or Return (self._front + self._arraySize + 1) == self._rear + self._arraySize
 
 	def insert(self, val):
