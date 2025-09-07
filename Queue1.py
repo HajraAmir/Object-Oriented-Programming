@@ -53,7 +53,7 @@ def main():
     q.insert(50)
     q.insert(10)
     print(q.size())
-    print(q.remove())
+    print(q.remove())  # Comment This Line
     print(q.remove())
     print(q.remove())    # Comment This Line
     print(q.isEmpty())
