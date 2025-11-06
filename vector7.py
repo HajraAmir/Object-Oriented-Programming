@@ -2,7 +2,7 @@
 # here named Vector, a class
 # __add__ member function, note it called as t+b, not as t.__add__(b) which it can be
 # discussion of magic or dunder function members
-# getters/setters (or accessor/mutators) instance embers
+# getters/setters (or accessor/mutators) instance members
 
 class Vector:
     def __init__(self, x=0, y=0, z=0):
