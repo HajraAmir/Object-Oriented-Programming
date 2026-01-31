@@ -1,4 +1,4 @@
-# array based version of linked nodes based code in doubly-LL5.py
+# Array based version of linked nodes based code in doubly-LL5.py
 class Unordered:
 #    Class Node: not required for Array based list, delete this line
 
