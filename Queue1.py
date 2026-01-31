@@ -13,7 +13,7 @@ class Queue:
         return self.size() == 0
 
     def isFull(self):
-        return self.size() == self._arraySize   # An Error May Be Here
+        return self.size() == self._arraySize   # an error may be here
 
     def insert(self, val):
         if not self.isFull():
@@ -53,7 +53,9 @@ def main():
     q.insert(50)
     q.insert(10)
     print(q.size())
-    print(q.remove())  # Comment This Line
     print(q.remove())
-    print(q.remove())   
-    print(q.isEmpty())  
+    print(q.remove())
+    print(q.remove())    # comment this line
+    print(q.isEmpty())
+
+main()

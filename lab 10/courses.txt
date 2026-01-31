@@ -1,0 +1,13 @@
+12453,oop,4,2,core
+1234,dsa,4,3,core
+12345675oop oop                                   4 2core    
+1234    object oriented programming               42ncore    
+123     object oriented programming               42ndcore    
+123     object oriented programming                4 2ndcore    
+123     object oriented programming               4 2ndcore     
+123     object oriented programming               4  2ndcore    
+123     object oriented programmig                4  2ndcore      
+12345   database management system                4 2core    
+567,database management sysetem,4,2,core
+890,dsa,4,2,core
+675,database manafement system,4,3,core
